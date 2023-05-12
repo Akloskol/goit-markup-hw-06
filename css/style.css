@@ -612,6 +612,8 @@ img {
                     letter-spacing: 0.02em;
                     color: var(--main-bg-color);
                     margin-bottom: 16px;
+                        
+                    
         }
 
         .subscribe-form-input{
@@ -638,7 +640,7 @@ img {
         }
         .subscribe-form-wrapper{
             color: var(--main-bg-color);
-                gap: 16px;
+        
         }
         .subscribe-form-btn{
             display: flex;
