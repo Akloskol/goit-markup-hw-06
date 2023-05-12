@@ -623,15 +623,20 @@ img {
         }
 
         .subscribe-form-btn{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                padding: 8px 24px;
-                gap: 16px;
-                position: absolute;
-                background-color: var(--main-pg-color);
-                border-radius: 4px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 24px;
+            gap: 16px;
+            position: absolute;
+            background-color: var(--main-pg-color);
+            border-radius: 4px;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            letter-spacing: 0.04em;
         }
 
     /* Modal-container */
