@@ -606,22 +606,40 @@ img {
 
         .subscribe-wrapper
 
-        .subscribe-text
+        .subscribe-text{
+                font-weight: 500;
+                    line-height: 1.5;
+                    letter-spacing: 0.02em;
+                    color: var(--main-bg-color);
+                    margin-bottom: 16px;
+        }
+
         .subscribe-form-input{
             width: 264px;
             height: 40px;
         }
 
-        placeholder{
+        ::placeholder{
             font-weight: 300;
             font-size: 12px;
             line-height: 24px;
             display: flex;
             align-items: center;
             letter-spacing: 0.04em;
+            color: var(--main-bg-color);
+            
             
         }
 
+        .subscribe-form-input{
+            background-color: var(--main-vg-color);
+            border: 1px solid var(--main-bg-color);
+            color: var(--main-bg-color);
+        }
+        .subscribe-form-wrapper{
+            color: var(--main-bg-color);
+                gap: 16px;
+        }
         .subscribe-form-btn{
             display: flex;
             flex-direction: row;
@@ -637,6 +655,8 @@ img {
             cursor: pointer;
             text-align: center;
             letter-spacing: 0.04em;
+            position: absolute;
+            
         }
 
     /* Modal-container */
