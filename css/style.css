@@ -318,6 +318,13 @@ img {
         letter-spacing: 0.02em; 
     }
 
+    .name-svj{
+        font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            margin-bottom: 8px;
+    }
+
     .name-list{
         display: flex;
         justify-content: center;
