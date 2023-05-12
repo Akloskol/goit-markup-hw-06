@@ -603,6 +603,20 @@ img {
             fill: var(--main-ag-color);
         }
 
+
+
+        placeholder{
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.04em;
+            color:;
+        }
+
+
+
     /* Modal-container */
 
         .modal-container {
