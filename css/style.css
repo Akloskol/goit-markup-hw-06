@@ -188,6 +188,11 @@ img {
     }
 
     .people-office{
+        position: absolute;
+            width: 1440px;
+            height: 600px;
+            left: 0px;
+            top: 72px;
         background: url(group-people-working-website-template.jpg);
     }
 /* Section-2 */
