@@ -604,7 +604,8 @@ img {
             list-style: none;
         }
 
-        .social-item:first-child {
+        .social-item {
+            list-style: none;
             width: 40px;
             height: 40px;
         }
@@ -628,24 +629,25 @@ img {
             fill: var(--main-ag-color);
         }
 
-
-        .subscribe-wrapper
-
         .subscribe-text{
-                font-weight: 500;
-                    line-height: 1.5;
-                    letter-spacing: 0.02em;
-                    color: var(--main-bg-color);
-                    margin-bottom: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--main-bg-color);
+            margin-bottom: 16px;    
+        
         }
         .footer-form { 
             box-sizing: border-box;
-            position: absolute;     
+            position: absolute;  
+            left: 828px; 
+            
         }
 
         .subscribe-form-input{
             width: 264px;
             height: 40px;
+            border-radius: 4px;
         }
 
         ::placeholder{
@@ -656,8 +658,6 @@ img {
             align-items: center;
             letter-spacing: 0.04em;
             color: var(--main-bg-color);
-            
-            
         }
 
         .subscribe-form-input{
@@ -676,7 +676,6 @@ img {
             align-items: center;
             padding: 8px 24px;
             gap: 16px;
-            position: absolute;
             background-color: var(--main-pg-color);
             border-radius: 4px;
             color: #ffffff;
@@ -685,7 +684,8 @@ img {
             text-align: center;
             letter-spacing: 0.04em;
             position: absolute;
-            
+            top: 1px;
+            left: 300px;
         }
 
     /* Modal-container */
