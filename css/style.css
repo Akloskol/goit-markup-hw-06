@@ -639,10 +639,11 @@ img {
                     margin-bottom: 16px;
         }
 
-                /* .footer-form { 
+                .footer-form { 
                     box-sizing: border-box;
                     position: absolute;
-                }*/
+                    gap: 24px;
+                }
 
         .subscribe-form-input{
             width: 264px;
