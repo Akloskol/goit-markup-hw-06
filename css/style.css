@@ -749,6 +749,139 @@ img {
             transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 
+        .modal-text{
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: var(--main-vg-color);
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            width: 360px;
+            margin-top: 50px;
+        }
+
+        .modal-name{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.04em;          
+            color: #8E8F99;
+            width: 34px;
+        }
+
+        .modal-input-name{
+            border: 1px solid #4D5AE5;
+            border-radius: 4px;
+            box-sizing: border-box;
+            position: absolute;
+            width: 360px;
+            height: 40px;
+
+        }
+
+        .modal-phone{
+            font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 0.04em;
+                color: #8E8F99;
+                width: 34px;
+                margin-top: 50px;
+        }
+
+        .modal-input-phone{
+            border: 1px solid rgba(46, 47, 66, 0.4);
+            border-radius: 4px;
+            box-sizing: border-box;
+            position: absolute;
+            width: 360px;
+            height: 40px;
+        }
+
+        .modal-email{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.04em;
+            color: #8E8F99;
+            width: 34px;
+            margin-top: 50px;
+        }
+
+        .modal-input-email{
+            border: 1px solid rgba(46, 47, 66, 0.4);
+            border-radius: 4px;
+            box-sizing: border-box;
+            position: absolute;
+            width: 360px;
+            height: 40px;
+        }
+
+        .modal-comment{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.04em;
+            color: #8E8F99;
+            width: 34px;
+            margin-top: 50px;
+        }
+
+        .modal-input-comment{        
+            border-radius: 4px;
+            box-sizing: border-box;
+            position: absolute;
+            width: 360px;
+            height: 120px;
+            border: 1px solid rgba(46, 47, 66, 0.4);
+            border-radius: 4px;
+        }
+
+        .text-button{
+            font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 0.04em;
+                color: #8E8F99;
+                margin-top: 140px;
+                size: 12px;
+                text-align: center;
+        }
+
+        .send-button{
+            display: block;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 16px 32px;
+            gap: 10px;
+            background: #4D5AE5;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            border: none;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+            color: #FFFFFF;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        
+
+        
+
+        
         
 
         
