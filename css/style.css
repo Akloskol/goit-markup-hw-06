@@ -638,12 +638,10 @@ img {
                     color: var(--main-bg-color);
                     margin-bottom: 16px;
         }
-
-                .footer-form { 
-                    box-sizing: border-box;
-                    position: absolute;
-                    gap: 24px;
-                }
+        .footer-form { 
+            box-sizing: border-box;
+            position: absolute;     
+        }
 
         .subscribe-form-input{
             width: 264px;
