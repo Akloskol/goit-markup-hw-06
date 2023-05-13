@@ -612,9 +612,12 @@ img {
                     letter-spacing: 0.02em;
                     color: var(--main-bg-color);
                     margin-bottom: 16px;
-                        
-                    
         }
+
+                /* .footer-form { 
+                    box-sizing: border-box;
+                    position: absolute;
+                }*/
 
         .subscribe-form-input{
             width: 264px;
