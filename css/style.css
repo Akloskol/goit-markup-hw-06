@@ -471,6 +471,7 @@ img {
 
     .link-search{
         display: block;
+        text-decoration: none;
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .link-search:is(:hover, :focus){
@@ -547,9 +548,11 @@ img {
         .footer {
             background-color: var(--main-vg-color);
             padding: 100px 0;
-            
         }
 
+        .container-footer-wrapper{
+            display: flex;
+        }
             .container-footer{
                 display: flex;
                 width: 1158px;
@@ -625,6 +628,10 @@ img {
             background-color: #31d0aa;
         }
 
+        .socil-media-container{
+            margin-right: 80px;
+        }
+
         .icon{
             fill: var(--main-ag-color);
         }
@@ -638,9 +645,8 @@ img {
         
         }
         .footer-form { 
-            box-sizing: border-box;
-            position: absolute;  
-            left: 828px; 
+            display: flex;
+            gap: 24px;
             
         }
 
@@ -648,6 +654,7 @@ img {
             width: 264px;
             height: 40px;
             border-radius: 4px;
+            padding-left: 25px;
         }
 
         ::placeholder{
@@ -683,9 +690,7 @@ img {
             cursor: pointer;
             text-align: center;
             letter-spacing: 0.04em;
-            position: absolute;
-            top: 1px;
-            left: 300px;
+            
         }
 
     /* Modal-container */
