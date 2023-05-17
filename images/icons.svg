@@ -40,5 +40,8 @@
 <path d="M2 12h6v18h-6v-18z"></path>
 <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
 </symbol>
+<symbol id="icon-send" viewBox="0 0 38 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M38.4 0l-38.4 18 12.272 3.788 18.928-14.788-14.397 16.186 0.012 0.004-0.014-0.004v8.814l6.882-6.691 8.718 2.691 6-28z"></path>
+</symbol>
 </defs>
 </svg>
