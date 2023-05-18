@@ -880,7 +880,7 @@ img {
             background-color: white;
             background-repeat: no-repeat;
             background-position: 50% 50%;
-            box-shadow: 0 0 0 0.1em #4A90E2;
+            box-shadow: 0 0 0 0.1em ;
         }
 
     .check-input {
@@ -892,13 +892,13 @@ img {
     }
 
     .check-input:checked + .check__box {
-        background-color: #4A90E2;
+        background-color: #8E8F99;
         background-image: url(images/check.svg);
         }
 
     .check-input:focus + .check__box {
         box-shadow:
-        0 0 0 0.1em #4A90E2,
+        0 0 0 0.1em #8E8F99,
         0 0 0 0.2em #7ED321;
     }
 
