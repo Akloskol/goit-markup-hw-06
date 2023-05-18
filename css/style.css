@@ -770,6 +770,11 @@ img {
         .name-lode{
             margin-bottom: 8px;
         }
+        
+        .name-lode-texteria{
+            margin-bottom: 16px;
+        }
+
         .modal-name{
             font-family: 'Roboto';
             font-style: normal;
