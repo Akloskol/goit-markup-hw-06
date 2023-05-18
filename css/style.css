@@ -861,7 +861,7 @@ img {
             transform: translateY(-50%);
         }
 
-        .check__box {
+        .check-box {
             position: absolute;
             margin-top: 0.2em;
             margin-left: -1em;
@@ -874,6 +874,26 @@ img {
             background-position: 50% 50%;
             box-shadow: 0 0 0 0.1em #4A90E2;
         }
+
+    .check-input {
+        position: absolute;
+        clip: rect(0 0 0 0);
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+    }
+
+    .check-input:checked + .check__box {
+        background-color: #4A90E2;
+        background-image: url(images/check.svg);
+        }
+
+    .check-input:focus + .check__box {
+        box-shadow:
+        0 0 0 0.1em #4A90E2,
+        0 0 0 0.2em #7ED321;
+    }
+
 
         
 
