@@ -861,6 +861,14 @@ img {
             transform: translateY(-50%);
         }
 
+    .option {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+
+    .check {
+        padding-left: 1.2em;
+    }
         .check-box {
             position: absolute;
             margin-top: 0.2em;
