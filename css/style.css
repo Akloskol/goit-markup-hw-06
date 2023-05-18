@@ -832,7 +832,7 @@ img {
             display: block;
             flex-direction: row;
             align-items: flex-start;
-            padding: 16px 32px;
+            padding: 18px 46px;
             gap: 10px;
             background: #4D5AE5;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -843,6 +843,13 @@ img {
             color: #FFFFFF;
             text-align: center;
             margin: 0 auto;
+        }
+
+        .modal-svg{
+            position: absolute;
+            top: 50%;
+            left: 19px;
+            transform: translateY(-50%);
         }
 
         
