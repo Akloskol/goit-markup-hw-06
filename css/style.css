@@ -880,7 +880,7 @@ img {
             background-color: white;
             background-repeat: no-repeat;
             background-position: 50% 50%;
-            box-shadow: 0 0 0 0.1em ;
+            box-shadow: 0 0 0 0.1em #8E8F99;
         }
 
     .check-input {
