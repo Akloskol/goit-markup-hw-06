@@ -812,11 +812,12 @@ img {
 
         .modal-input-comment{        
             border-radius: 4px;
-            box-sizing: border-box;
+            padding: 15px 15px;
             width: 100%;
             height: 120px;
             border: 1px solid rgba(46, 47, 66, 0.4);
             border-radius: 4px;
+            resize: none;
         }
 
         
@@ -841,7 +842,7 @@ img {
             display: block;
             flex-direction: row;
             align-items: flex-start;
-            padding: 18px 46px;
+            padding: 18px 65px;
             gap: 10px;
             background: #4D5AE5;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -861,46 +862,7 @@ img {
             transform: translateY(-50%);
         }
 
-    .option {
-        display: block;
-        margin-bottom: 0.5em;
-    }
-
-    .check {
-        padding-left: 1.2em;
-    }
-        .check-box {
-            position: absolute;
-            margin-top: -0.8em;
-            margin-left: -1em;
-            width: 0.6em;
-            height: 0.6em;
-            overflow: hidden;
-            border-radius: 0.05em;
-            background-color: white;
-            background-repeat: no-repeat;
-            background-position: 50% 50%;
-            box-shadow: 0 0 0 0.1em #8E8F99;
-        }
-
-    .check-input {
-        position: absolute;
-        clip: rect(0 0 0 0);
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-    }
-
-    .check-input:checked + .check__box {
-        background-color: #8E8F99;
-        background-image: url(images/check.svg);
-        }
-
-    .check-input:focus + .check__box {
-        box-shadow:
-        0 0 0 0.1em #8E8F99,
-        0 0 0 0.2em #7ED321;
-    }
+    
 
 
         
