@@ -882,9 +882,10 @@ img {
         margin: -1px;
         }
 
+        
         .check__box {
         position: absolute;
-        margin-top: -0,7em;
+        margin-top: -0.7em;
         margin-left: -1em;
         width: 0.6em;
         height: 0.6em;
